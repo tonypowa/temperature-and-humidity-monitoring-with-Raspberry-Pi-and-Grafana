@@ -74,7 +74,7 @@ docker run \
 ```
 
 
-### Step 3 Monitor your data from Grafana
+### Step 3 - Monitor your data from Grafana
 
 From your machine, access your Raspberry PI by entering the IP address into the browser address: http://192.168.x.x:3000 . The Grafana login page should appear.
 
