@@ -1,4 +1,4 @@
-# Temperature-and-humidity-monitoring-with-Raspberry-Pi-and-Grafana
+# Temperature and humidity monitoring with-Raspberry Pi and Grafana
 
 This repo contains the code files, and the commands to run a Python app for monitoring temperature and humidity with a Raspberry Pi and Grafana.
 
