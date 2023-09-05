@@ -64,17 +64,15 @@ Below are the simplified steps that you need to take:
 
 2. Run Prometheus on Docker
 
-    Edit the `prometheus.yml` file:
-    - Run this `prometheus.yml` file. If you moved this file, remember to tell Docker the path to it.
+Run this `prometheus.yml` file. If you moved this file, remember to tell Docker the path to it.
 
-    ``` shell
+``` shell
+docker run \
+    -p 9090:9090 \
+    -v ./prometheus.yml:/etc/prometheus/prometheus.yml \
+    prom/prometheus
+```
 
-    docker run \
-        -p 9090:9090 \
-        -v ./prometheus.yml:/etc/prometheus/prometheus.yml \
-        prom/prometheus
-
-    ```
 
 ### Step 3 Monitor your data from Grafana
 
