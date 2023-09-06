@@ -88,4 +88,4 @@ docker run \
 Click Save & Test
 
 
-**DONE!** Go ahead and [Explore]() [link to last section of the blog] your data or go ahead and start creating your own [dashboard](https://snapshots.raintank.io/dashboard/snapshot/ASx53AjtGbFDw362bYHpOeJoEl9dTAVE).
+**DONE!** Go ahead and [Explore]() [link to last section of the blog] your data or go ahead and start creating your own [dashboard](https://snapshots.raintank.io/dashboard/snapshot/nLVoNIhn7Bf71BMhB7iDTIS3pHowHEbB).
