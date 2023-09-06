@@ -76,6 +76,16 @@ docker run \
 
 ### Step 3 - Monitor your data from Grafana
 
-From your machine, access your Raspberry PI by entering the IP address into the browser address: http://192.168.x.x:3000 . The Grafana login page should appear.
+- From your machine, access your Raspberry PI by entering the IP address into the browser address: http://192.168.x.x:3000 . The Grafana login page should appear.
 
-DONE! Go ahead and [Explore]() [LINK TO LAST SECTION OF THE BLOG]() your data and create your own dashboards.
+- Login to Grafana (the default username and password is admin:admin)
+
+- Add your Prometheus data source:
+
+    - Open the menu by clicking on the home button at the top left corner
+    - Go to connections > datasources > + add new data source
+    - In the field “Prometheus server URL”, enter http://localhost:9090
+Click Save & Test
+
+
+**DONE!** Go ahead and [Explore]() [link to last section of the blog] your data or go ahead and start creating your own [dashboard](https://snapshots.raintank.io/dashboard/snapshot/ASx53AjtGbFDw362bYHpOeJoEl9dTAVE).
